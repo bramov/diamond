@@ -130,8 +130,16 @@ hr {
         font-size: 25px;
         line-height: 25px;
     }
+    .heading {
+        margin-top: 60px;
+    }
+
+}
+@media (min-width: 1280px) {
     .wrapper {
         background-size: contain;
     }
-
+    .heading__image {
+        width: 260px;
+    }
 }
