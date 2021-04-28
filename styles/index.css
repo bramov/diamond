@@ -1,5 +1,5 @@
 .wrapper {
-    width: 100%;
+    width: 100vw;
     background-image: url('../images/background.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -35,8 +35,8 @@ main {
 .heading__text {
     margin-bottom: 10px;
     padding: 10px 0;
-    background-color: rgba(0, 0, 0, 0.4);
-    box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.4);
+    background-color: rgba(255, 255, 255, 0.4);
+    box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.4);
 }
 
 .heading__text > h1, h3 {
