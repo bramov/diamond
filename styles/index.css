@@ -55,8 +55,8 @@ main {
 
 .heading__title {
     font-weight: bold;
-    font-size: 6vw;
-    line-height: 6vw;
+    font-size: 8vw;
+    line-height: 8vw;
     color: #FFFBFB;
 }
 
@@ -110,7 +110,7 @@ i {
 hr {
     border: 1px solid #259FE3;
 }
-@media (min-width: 800px) {
+@media (min-width: 640px) {
     .contents__btn {
         width: 243px;
         height: 53px;
@@ -123,12 +123,12 @@ hr {
         margin: 0 25px;
     }
     .heading__title {
-        font-size: 25px;
-        line-height: 25px;
+        font-size: 50px;
+        line-height: 50px;
     }
     .heading__subtitle {
-        font-size: 12.5px;
-        line-height: 12.5px;
+        font-size: 20px;
+        line-height: 20px;
     }
     .heading {
         margin-top: 30px;
@@ -138,6 +138,12 @@ hr {
     }
     .heading__image {
         width: 130px;
+    }
+    section {
+        margin: 10px 0;
+    }
+    .heading__text {
+        padding: 0;
     }
 
 }
