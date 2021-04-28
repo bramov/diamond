@@ -1,5 +1,5 @@
 body {
-    background-image: url('https://homediy.co/wp-content/uploads/2018/11/andy-holmes-734162-unsplash.jpg');
+    background-image: url('../images/background-main.jpeg');
     background-size: cover;
     display: flex;
     align-items: center;
