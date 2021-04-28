@@ -2,7 +2,7 @@
     width: 100%;
     background-image: url('../images/background.png');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
     background-position: top center;
     display: flex;
     flex-direction: column;
@@ -31,7 +31,9 @@ main {
 .heading__image {
     width: 22vw;
 }
-
+.heading__text {
+    margin-bottom: 10px;
+}
 .heading__text > h1, h3 {
     font-family: Lekton;
     font-style: normal;
