@@ -1,0 +1,112 @@
+.wrapper {
+    width: 100%;
+    background-image: url('../images/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section {
+    margin: 20px 0;
+}
+main {
+    margin-bottom: 50px;
+}
+
+.heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5vw;
+}
+
+.heading__logo {
+    display: flex;
+    align-items: center;
+}
+
+.heading__image {
+    width: 22vw;
+}
+
+.heading__text > h1, h3 {
+    font-family: Lekton;
+    font-style: normal;
+    text-align: center;
+}
+
+.heading__title {
+    font-weight: bold;
+    font-size: 8vw;
+    line-height: 8vw;
+    color: #FFFBFB;
+}
+
+.heading__subtitle {
+    font-weight: normal;
+    font-size: 4vw;
+    line-height: 4vw;
+    color: #FFFFFF;
+}
+a {
+    text-decoration: none;
+}
+.contents__btn {
+    text-align: center;
+    border: 3px solid #E9D523;
+    margin: 10px 0;
+    width: 60vw;
+    max-width: 800px;
+    height: 10vw;
+    border-radius: 10px;
+    transform-style: preserve-3d;
+    transform: perspective(8vw) rotateX(4deg);
+    transform-origin: bottom center;
+
+    font-family: Lekton;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 5vw;
+    line-height: 5vw;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contents__btn:hover {
+    background: linear-gradient(88.6deg, #E9D523 9.14%, rgba(234, 221, 109, 0) 99.99%, rgba(234, 223, 122, 0) 100%), #259FE3;
+}
+.contents__clearfix {
+    color: #259FE3;
+    margin: 50px 0;
+}
+.contents__btns {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+i {
+    margin-right: 20px;
+}
+
+@media (min-width: 800px) {
+    .contents__btn {
+        width: 486px;
+        height: 106px;
+        margin: 10px;
+        font-size: 50px;
+        line-height: 50px;
+    }
+    .contents__btns {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0 50px;
+        max-width: 2000px;
+    }
+
+}
