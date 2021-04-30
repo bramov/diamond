@@ -27,6 +27,9 @@ main {
     margin-bottom: 50px;
     overflow-y: scroll;
 }
+main::-webkit-scrollbar {
+    display: none;
+}
 
 .heading {
     display: flex;
