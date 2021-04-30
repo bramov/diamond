@@ -4,9 +4,12 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 100%;
 }
 .wrapper {
     width: 100vw;
+    height: 100vh;
+    max-height: 960px;
     max-width: 640px;
     background-image: url('../images/background.png');
     background-repeat: no-repeat;
@@ -22,6 +25,7 @@ section {
 }
 main {
     margin-bottom: 50px;
+    overflow-y: scroll;
 }
 
 .heading {
