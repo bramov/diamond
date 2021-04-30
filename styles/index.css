@@ -26,6 +26,8 @@ section {
 main {
     margin-bottom: 50px;
     overflow-y: scroll;
+    -ms-overflow-style: none; /* IE 11 */
+    scrollbar-width: none; /* Firefox 64 */
 }
 main::-webkit-scrollbar {
     display: none;
